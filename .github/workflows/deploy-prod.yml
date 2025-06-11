@@ -24,5 +24,5 @@ jobs:
             echo “Tag does not point to main, the deploy will not be executed.”
             exit 1
           fi
-      - name: Deploy to QA
+      - name: Deploy to PROD
         run: echo "DEPLOY PROD ${{ github.ref_name }} with key ${{ secrets.PROD_SECRET }}"
