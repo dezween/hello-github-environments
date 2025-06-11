@@ -13,7 +13,7 @@ jobs:
     needs: call-ci
     runs-on: ubuntu-latest
     environment:
-      name: prod
+      name: production
     steps:
       - uses: actions/checkout@v4
       - name: Fetch main branch
