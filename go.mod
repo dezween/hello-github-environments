@@ -1,3 +1,3 @@
 module github.com/dezween/hello-github-environments
 
-go 1.23.7
+go 1.22
