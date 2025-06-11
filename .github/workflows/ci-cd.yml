@@ -45,7 +45,7 @@ jobs:
         uses: golangci/golangci-lint-action@v4
         with:
           version: v1.56.2
-          args: --timeout 5m
+          args: run --timeout 5m ./...
 
   deploy-to-staging:
     needs: [test, lint]
